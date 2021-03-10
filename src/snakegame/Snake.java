@@ -12,6 +12,7 @@ public class Snake extends JFrame{
         add(new Board());
         pack();
         setLocationRelativeTo(null);
+        setResizable(false);
     }
     
     public static void main(String[] args){
